@@ -1,5 +1,8 @@
 # CS433 Programming Assignment 3
 
-In this assignment, you will implement some basic scheduling algorithms discussed in the class. It is based on the programming project in chapter 5 of the textbook. 
+In this assignment, we will implement some basic scheduling algorithms discussed in the class. It is based on the programming project in chapter 5 of the textbook. 
 
-Complete the implementations of scheduling algorithms in the provided source files, and remove "TODO"s from the comments after you are done. Read on the course website for more details and submission instructions. 
+How to Compile and Run the Program:
+To compile the program, use command: make (fcfs / rr / sjf / priority)
+To run the programs fcfs/sjf/priority, use command: ./(fcfs/sjf /priority) schedule.txt
+To run the program rr, use command: ./rr schedule.txt [Integer representing Time Quantum]
